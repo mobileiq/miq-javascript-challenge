@@ -18,5 +18,6 @@ some json files it needs to load over http.
 * You can easily see who's won a match because you highlight the player name, that rocks.
 * Even better if you could save the results into the browsers localStorage.
 
-
+## Sending it over to us
+A zip file would be best, whilst we know you can fork it, I'm sure you wouldn't want other candidates seeing your hard work....
 
