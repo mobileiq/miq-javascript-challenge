@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- (c) Mobile IQ Ltd 2012. All Rights Reserved.-->
+    <head>
+        <title>Table Football Scores</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="#">
+                        Table Football Scores
+                    </a>
+                    <ul class="nav">
+                        <li><a href="#players">Player List</a></li>
+                        <li><a href="#results">Results List</a></li>
+                        <li><a href="#addplayer">Add Player</a></li>
+                        <li><a href="#addresult">Add Result</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="content"></div>
+
+        <!-- Templates -->
+        <script type="text/template" id="tpl-player-list-item">
+            <td><a href='#playerDetail/<%= id %>'><%= firstName %> <%= lastName %></a></td>
+        </script>
+
+        <script type="text/template" id="tpl-result-list-item">
+            <td><%= player1.name %></td>
+            <td><%= player1.score %></td>
+            <td><%= player2.name %></td>
+            <td><%= player2.score %></td>
+        </script>
+
+        <!-- JS Scripts -->
+        <script type="text/javascript" src="libs/underscore.js"></script>
+        <script type="text/javascript" src="libs/jquery-1.6.2.js"></script>
+        <script type="text/javascript" src="libs/backbone.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+
+    </body>
+</html>
