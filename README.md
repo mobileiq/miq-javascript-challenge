@@ -10,7 +10,7 @@ To demonstrate a grasp of a reasonably broad range of JavaScript's core concepts
 
 ### The Test
 
-We have provided a [Jasmine](http://pivotal.github.com/jasmine) test suite with a series of stub implementations. Of course, these stub implementations are currently empty and all of the tests fail as a result.
+We have provided a [Jasmine](https://jasmine.github.io/) test suite with a series of stub implementations. Of course, these stub implementations are currently empty and all of the tests fail as a result.
 
 The challenge is to fill in the implementations such that all of the tests pass.
 
